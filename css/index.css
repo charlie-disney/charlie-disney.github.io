@@ -1,5 +1,12 @@
 body {
-  background-color: black;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
   background-image: url("../pics/band_blurred.jpg");
   background-size: cover;
+}
+
+.under_construction {
+
+  text-transform: uppercase;
+  text-align: center;
 }
