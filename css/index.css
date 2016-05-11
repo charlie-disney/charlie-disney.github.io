@@ -1,3 +1,5 @@
 body {
   background-color: black;
+  background-image: url("../pics/band_blurred.jpg");
+  background-size: cover;
 }
