@@ -1,6 +1,6 @@
 body {
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: center center;
   background-image: url("../pics/band_blurred.jpg");
   background-size: cover;
 }
