@@ -1,12 +1,20 @@
+html,
 body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.background {
+  height: 100%;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center top;
   background-image: url("../pics/band_blurred.jpg");
   background-size: cover;
 }
 
 .under_construction {
-
   text-transform: uppercase;
   text-align: center;
+  visibility: hidden;
 }
