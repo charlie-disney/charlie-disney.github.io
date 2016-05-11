@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'ModernGrotesk';
+  src:
+    url('../fonts/ModernGrotesk/ModernGrotesk.eot?#iefix')        format('embedded-opentype'),
+    url('../fonts/ModernGrotesk/ModernGrotesk.woff')              format('woff'),
+    url('../fonts/ModernGrotesk/ModernGrotesk.ttf')               format('truetype'),
+    url('../fonts/ModernGrotesk/ModernGrotesk.svg#ModernGrotesk') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html,
 body {
   height: 100%;
@@ -6,15 +17,50 @@ body {
 }
 
 .background {
+  opacity: 0.7;
+  position: absolute;
   height: 100%;
+  width: 100%;
   background-repeat: no-repeat;
   background-position: center top;
   background-image: url("../pics/band_blurred.jpg");
   background-size: cover;
 }
 
+.band_name {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translate(0, -50%);
+
+  opacity: 0.6;
+
+  text-align: center;
+  font-size: 90px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-family: 'ModernGrotesk', sans-serif;
+}
+
 .under_construction {
   text-transform: uppercase;
   text-align: center;
   visibility: hidden;
+}
+
+.social_icons {
+  text-align: center;
+  width: 100%;
+  opacity: 0.7;
+  position: absolute;
+  bottom: 20px;
+}
+
+.social_icons a {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.social_icons img {
+  display: inline-block;
 }
